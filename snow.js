@@ -63,5 +63,5 @@ window.onload =  function(){
     }
 
     //animation loop
-    setInterval(draw, 35);
+    setInterval(draw, 33);
 }
