@@ -61,8 +61,8 @@ body {
 #toys-for-tots-logo {
   margin-top: 200px;
   margin-bottom: 0;
-  width: 500px;
-  height: 180px;
+  width: 600px;
+  height: 200px;
 }
 
 .hero-p {
@@ -83,8 +83,92 @@ body {
 }
 
 #Red-Truck-Img {
-  margin-top: -420px;
+  margin-top: -475px;
   z-index: 2;
   width: 1200px;
   height: 800px;
+}
+
+#present-box-section {
+}
+
+#button-box-section {
+  width: 100%;
+  height: 350px;
+  margin-top: 0;
+  background: url(Footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.inv-button {
+  margin-top: 75px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  width: 400px;
+  height: 60px;
+  background: #628aa1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 15px 20px #00000029;
+  border: none;
+  border-radius: 40px;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.disclaimer-button {
+  margin-top: -150px;
+  z-index: 2;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding-left: 135px;
+  padding-top: 12px;
+  width: 400px;
+  height: 60px;
+  background: none;
+  border: 4px solid #628aa1;
+  box-shadow: 0px 15px 20px #00000029;
+  border-radius: 40px;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  color: #628aa1;
+  text-decoration: none;
+}
+
+/******** DISCAILMER ******/
+.disclaim-box {
+  display: flex;
+  align-items: center;
+}
+
+.disclaim-p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: lightblue;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: #fff;
 }
