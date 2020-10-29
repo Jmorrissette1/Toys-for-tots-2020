@@ -30,6 +30,14 @@ body {
   flex-direction: column;
 }
 
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
 #landing-container {
   width: 100%;
   display: flex;
@@ -46,7 +54,6 @@ body {
   margin-left: auto;
   background-image: url(HeroImg-1440.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   position: relative;
 }
