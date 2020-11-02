@@ -279,4 +279,9 @@ body {
     background-size: cover;
     position: relative;
   }
+
+  #button-box-section {
+    height: 350px;
+    background: url(Footer-T.png);
+  }
 }
