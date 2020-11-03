@@ -241,12 +241,12 @@ body {
   }
 
   #Orange-Box-Img {
-    width: 346px;
+    width: 320px;
     height: 339px;
   }
 
   #Red-Box-Img {
-    width: 346px;
+    width: 320px;
     height: 339px;
   }
 
@@ -254,34 +254,79 @@ body {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 220px;
+    width: 180px;
     height: 50px;
     font-size: 16px;
   }
 
   .disclaimer-button {
-    width: 200px;
+    width: 180px;
     height: 50px;
     margin-top: -230px;
     margin-left: 20px;
-    padding-left: 50px;
+    padding-left: 45px;
     padding-bottom: 20px;
     padding-top: 10px;
     font-size: 18px;
   }
 
   #button-box-section {
-    width: 100%;
     height: 350px;
-    margin-top: 0;
-    background: url(Footer.png);
+    background: url(Footer-T.png);
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  #hero {
+    width: 100%;
+    height: 475px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Hero-m.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center;
     position: relative;
   }
 
-  #button-box-section {
-    height: 350px;
-    background: url(Footer-T.png);
+  #toys-for-tots-logo {
+    margin-top: 80px;
+    margin-bottom: 0;
+    width: 220px;
+    height: 70px;
+  }
+
+  .hero-h {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .hero-p {
+    font-size: 12px;
+  }
+
+  #Red-Truck-Img {
+    margin-top: -120px;
+    width: 371px;
+    height: 214px;
+  }
+
+  .present-box {
+    flex-direction: column;
+  }
+
+  .buttons-box {
+    flex-direction: column;
+  }
+
+  .disclaimer-button {
+    width: 180px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 18px;
   }
 }
