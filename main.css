@@ -320,12 +320,16 @@ body {
   }
 
   .buttons-box {
-    margin-top: 70px;
+    margin-top: 20px;
     flex-direction: column;
   }
 
+  .inv-button {
+    width: 320px;
+  }
+
   .disclaimer-button {
-    width: 180px;
+    width: 320px;
     height: 50px;
     margin-top: 80px;
     margin-left: 20px;
