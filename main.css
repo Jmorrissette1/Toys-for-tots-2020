@@ -278,14 +278,14 @@ body {
 
 @media only screen and (max-width: 440px) {
   #hero {
-    width: 100%;
+    max-width: 414px;
     height: 475px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     background-image: url(Hero-m.png);
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
     position: relative;
   }
 
@@ -316,13 +316,14 @@ body {
   }
 
   .buttons-box {
+    margin-top: 70px;
     flex-direction: column;
   }
 
   .disclaimer-button {
     width: 180px;
     height: 50px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 20px;
     padding-left: 45px;
     padding-bottom: 20px;
